@@ -27,13 +27,13 @@ public class Estructuras{
         int numberDoWhile = 3;
         do{
             numberDoWhile++;
-            System.out.println("La variable numeroDoWhile ahora vale: " + numberDoWhile);
+            System.out.println("La variable numberDoWhile ahora vale: " + numberDoWhile);
            }
         while(numberDoWhile < 3);
 
         //for
         for(int numberFor = 0; numberFor <= 5; numberFor++){
-            System.out.println("La variable numeroFor ahora vale: " + numberFor);
+            System.out.println("La variable numberFor ahora vale: " + numberFor);
         }
 
         //Switch
