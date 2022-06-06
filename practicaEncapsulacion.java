@@ -1,3 +1,4 @@
+package com.open_bootcamp;
 public class practicaEncapsulacion {
   public static void main(String[] args) {
     Persona persona = new Persona();
