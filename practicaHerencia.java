@@ -2,7 +2,6 @@
 public class practicaHerencia{
 public static void main(String[] args) {
   Cliente cliente = new Cliente();
-  cliente.Edad = 24;
   cliente.Nombre = "Douglas";
   cliente.Telefono= 978521435;
   cliente.credito= 410.20;
@@ -15,9 +14,9 @@ public static void main(String[] args) {
 
   System.out.println("Mi nombre es " + cliente.Nombre + ", tengo " + cliente.Edad + " años.*" );
   System.out.println("Mi telefono es " + cliente.Telefono + ", y solamente me queda de credito la cantidad de " + cliente.credito + "S/.");
-    System.out.println("*************************************************************************************");
+  System.out.println("*************************************************************************************");
   System.out.println("Soy trabajadora, mi nombre es "+ trabajador.Nombre + ", tengo " + trabajador.Edad + " años.");
-  System.out.println("Mi telefono es " + trabajador.Telefono + ", y mi salario es de " + trabajador.salario + "S/.);
+  System.out.println("Mi telefono es " + trabajador.Telefono + ", y mi salario es de " + trabajador.salario + "S/.");
   }
 }
 class Persona{
