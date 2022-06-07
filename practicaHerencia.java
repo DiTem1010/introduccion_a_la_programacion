@@ -1,4 +1,4 @@
-
+package com.open_bootcamp;
 public class practicaHerencia{
 public static void main(String[] args) {
   Cliente cliente = new Cliente();
